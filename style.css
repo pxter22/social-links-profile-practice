@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 8%);
+  color: aliceblue;
+  min-height: 100vh;
+  font-family: "inter", sans-serif;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  width: 20vw;
+  height: 65vh;
+  border-radius: 18px;
+  padding: 42px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.user-name {
+  font-size: 1.5rem;
+}
+
+.user-location {
+  font-size: 0.875rem;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+.user-bio {
+  padding: 14px 0;
+}
+
+.user-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 12px;
+}
+
+/* buttons */
+
+button {
+  background-color: hsl(0, 0%, 20%);
+  color: aliceblue;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0, 8rem;
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
